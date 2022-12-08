@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Interests Survey form</h1>
+    <form action="assignment.html">
+        <div>
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+        </div>
+        <label for="department">Enter your department:</label>
+        <input type="text" name="department" id="name" required><br><br>
+        <div>
+    <label for="tell">Tell us a little about yourself</label>
+    <input type="text" name="tell"><br><br>
+</div>
+<span>
+    Do you exercise at home? 
+    <label for="Yes">Yes</label>
+    <input type="radio" name="boolean" id="Yes">
+</span>
+<span>
+    <label for="No">No</label>
+    <input type="radio" name="boolean">
+</span>
+<div>
+    How do you like to read about your favorite topics?
+</div>
+<span>
+    <label for="books">Books</label>
+    <input type="checkbox" name="books">
+</span>
+<span>
+    <label for="Oresources">Online resources</label>
+    <input type="checkbox" name="Oresources">
+</span>
+<span>
+    <label for="Papps">Phone apps</label>
+    <input type="checkbox" name="Papps">
+</span>
+<span>
+    <label for="Mags">Magazines</label>
+    <input type="checkbox" name="Mags">
+</span>
+<div>
+    What genre of movies do you like? 
+    <span>
+    <select name="movies">
+        <option value="comedy">Comedy</option>
+        <option value="horror">Horror</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+    </span><br><br>
+</div>
+<div>
+<input type="submit" value="Submit form"><br><br>
+</div>
+    </form>
+</body>
+</html>
